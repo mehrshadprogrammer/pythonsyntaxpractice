@@ -1,15 +1,15 @@
 
 def checked_count_lower_and_uppercase_charechter(str):
-    upper = 0
-    lower = 0
+    upp = 0
+    low = 0
     for ch in str:
         if ch.islower():
-            lower += 1
+            low += 1
         elif ch.isupper():
-            upper += 1
+            upp += 1
         else:
             pass
-    print(f"upper charechter :{upper} and lower charechter : {lower}")
+    print(f"upper charechter :{upp} and lower charechter : {low}")
 
 boolean = True
 while boolean:
