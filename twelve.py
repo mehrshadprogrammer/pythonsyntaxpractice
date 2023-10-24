@@ -7,3 +7,6 @@ def count_substring_from_string(str1, str2):
     print(str2, count) 
 
 count_substring_from_string("mehrshad jan amdii mehrshad", "mehrshad")
+
+str = "mehrshad jan amdii mehrshad"
+print(str.count("mehrshad"))
