@@ -6,9 +6,9 @@ def result_two_list(list1, list2):
         else:
             pass
 
-    for i in list2:
-        if i % 2 == 0:
-            new_list.append(i)
+    for j in list2:
+        if j % 2 == 0:
+            new_list.append(j)
         else:
             pass
     return new_list
